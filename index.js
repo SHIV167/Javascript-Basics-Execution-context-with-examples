@@ -12,6 +12,7 @@ alert("TESTING");
 //Execution context
 
 
+
 //Example One
 
 const username = 'Shiv kumar jha';
@@ -168,5 +169,16 @@ counter.click();
 counter.render();
 counter.click();
 counter.render();
+
+
+
+//setTimeout
+for(var i=0; i<10;i++){
+setTimeout(()=>{
+console.log(i);
+
+},10000);
+
+}
 
 
